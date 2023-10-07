@@ -1,0 +1,18 @@
+#ifndef QUEUE_H
+#define QUEUE_H
+template <class T>
+class queue {
+private:
+    int size, hh, tt;
+    T* a;
+
+public:
+    queue(int size);
+    ~queue();
+    void clear();
+    bool push(T x);
+    void pop();
+    T front();
+    bool empty();
+};
+#endif // QUEUE_H
