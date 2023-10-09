@@ -17,11 +17,7 @@ public:
     newwindow *Newwindow;   // 新窗口对象
 
 private slots:
-
-    void on_toolButton_clicked();
-
-
-    void on_pushButton_clicked();
+    void on_open_file_clicked();
 
 private:
     Ui::MainWindow *ui;

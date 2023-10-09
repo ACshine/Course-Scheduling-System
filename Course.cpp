@@ -5,8 +5,8 @@ Course::Course(int id, QString name, double credits, int preCoursesNum, int* pre
     this->name = name;
     this->credits = credits;
     this->preCoursesNum = preCoursesNum;
-    this->preCourses = new int[preCoursesNum];
-    for (int i = 0; i < preCoursesNum; i++) {
+    this->preCourses = new int[preCoursesNum+10];
+    for (int i = 1; i <= preCoursesNum; i++) {
         this->preCourses[i] = preCourses[i];
     }
     this->isCompulsory = isCompulsory;
@@ -22,7 +22,7 @@ Course::Course() {
 }
 
 Course::~Course() {
-    delete[] preCourses;
+    //delete[] preCourses;
 }
 
 // 其他方法的实现可以根据需要添加到这里

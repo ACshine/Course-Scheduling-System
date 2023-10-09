@@ -12,19 +12,19 @@ SOURCES += \
     Course.cpp \
     Graphl.cpp \
     HashTable.cpp \
+    HashTable2.cpp \
     main.cpp \
     mainwindow.cpp \
     newwindow.cpp \
-    test.cpp
 
 HEADERS += \
     Course.h \
     Graphl.h \
     HashTable.h \
+    HashTable2.h \
     Queue.h \
     mainwindow.h \
     newwindow.h \
-    test.h
 
 FORMS += \
     mainwindow.ui \
@@ -34,3 +34,6 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    resources.qrc
