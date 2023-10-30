@@ -1,0 +1,7 @@
+QWidget#centralwidget {
+    background-color: #CCCCFF;
+}
+
+QTreeWidget {
+    background-color: #99CCCC;
+}

@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>avatar.jpg</file>
+        <file>course management.png</file>
+        <file>search.png</file>
+        <file>search_un.png</file>
+        <file>arrangement.png</file>
+        <file>main_icon.png</file>
+        <file>add.png</file>
+        <file>pic.png</file>
+        <file>choose.png</file>
+        <file>success.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix1"/>
+</RCC>
