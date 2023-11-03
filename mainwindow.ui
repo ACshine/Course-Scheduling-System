@@ -483,6 +483,12 @@
           <layout class="QHBoxLayout" name="horizontalLayout_4">
            <item>
             <widget class="QLabel" name="label_5">
+             <property name="font">
+              <font>
+               <family>Microsoft Himalaya</family>
+               <pointsize>16</pointsize>
+              </font>
+             </property>
              <property name="styleSheet">
               <string notr="true">background-color: rgb(185, 254, 255);</string>
              </property>
